@@ -1,0 +1,9 @@
+.fav-titulo-contenedor{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.titulo{
+    color: white;
+    font-size: 2rem;
+}

@@ -1,0 +1,29 @@
+li{
+    color: white;
+    list-style: none;
+    font-size: 1rem;
+    
+}
+li > p{
+    font-size: 1rem;
+}
+li > h3{
+    font-size: 10%;
+}
+
+.list-item{
+    background-color: rgb(39, 39, 39);
+    height: 100px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+}
+.list-item:hover{
+    background-color: black;
+}
+.list-item-img{
+    margin: 10px;
+}
+.list-item-info{
+    margin: 10px;
+}

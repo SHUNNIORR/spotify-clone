@@ -1,0 +1,12 @@
+.body-contain{
+   width: 100%;
+   background-color: rgb(39, 39, 39);
+}
+.pages{
+    max-width: 1000px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+}
