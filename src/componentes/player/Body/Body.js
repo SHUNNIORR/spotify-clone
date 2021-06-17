@@ -1,10 +1,10 @@
 import React from 'react'
 import './Body.css'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from '../header/Header';
-import Footer from '../Footer/Footer';
-import Favoritos from '../pages/Favoritos';
-import Home from '../pages/Home';
+import Header from './header/Header';
+import Footer from './Footer/Footer';
+import Favoritos from './pages/Favoritos';
+import Home from './pages/Home';
 export const Body = (props) => {
     return (
         <>

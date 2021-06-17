@@ -1,7 +1,7 @@
 import React,{Fragment, useState} from 'react'
 import { NavLink } from "react-router-dom";
 import './Header.css';
-import { cerrarSesion } from '../spotify';
+import { cerrarSesion } from '../../../spotify';
 const Header = ( props ) => {
     
     const [click, setClick] = useState(false);

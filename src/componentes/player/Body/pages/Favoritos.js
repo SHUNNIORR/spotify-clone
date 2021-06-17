@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from 'react';
 import './Favoritos.css'
-import {getUserFavs} from '../spotify';
+import {getUserFavs} from '../../../spotify';
 export const Favoritos = () => {
     //obtengo el token
     const token = JSON.parse(localStorage.getItem('token'));

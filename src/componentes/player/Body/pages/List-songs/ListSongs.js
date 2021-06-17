@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from 'react'
 import './ListSongs.css'
-import {getSongs} from '../../spotify'
+import {getSongs} from '../../../../spotify'
 export const ListSongs = ({busqueda}) => {
     //obtengo el token
     const token = JSON.parse(localStorage.getItem('token'));

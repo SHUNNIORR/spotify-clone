@@ -1,5 +1,5 @@
 import React,{useEffect, useState, Fragment} from 'react'
-import {Body} from '../Body/Body';
+import Body from './Body/Body';
 import {getUserData} from '../spotify';
 
 
